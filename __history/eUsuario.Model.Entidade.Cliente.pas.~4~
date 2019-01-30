@@ -1,0 +1,40 @@
+unit eUsuario.Model.Entidade.Cliente;
+
+interface
+
+uses
+  eUsuario.Model.Conexao.Interfaces;
+
+Type
+  TModelEntidadeUsuario = class(TInterfacedObject, iEntidade)
+    private
+      FQuery: iQuery;
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iEntidade;
+  end;
+implementation
+
+uses
+  eUsuario.Controller.Factory.Query;
+
+{ TMinhaClasse }
+
+constructor TModelEntidadeUsuario.Create;
+begin
+  FQuery := TControllerFactoryQuery.New.Query(nil);
+end;
+
+destructor TModelEntidadeUsuario.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelEntidadeUsuario.New: iEntidade;
+begin
+  Result := Self.Create;
+end;
+
+end.

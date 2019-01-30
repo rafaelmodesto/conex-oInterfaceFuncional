@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 407
+  ClientWidth = 640
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 56
+    Top = 152
+    Width = 545
+    Height = 201
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object TesteConnection: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=Teste')
+    Connected = True
+    LoginPrompt = False
+    Left = 88
+    Top = 26
+  end
+  object Tb_clientesTable: TFDQuery
+    Active = True
+    Connection = TesteConnection
+    SQL.Strings = (
+      'SELECT * FROM TB_CLIENTES')
+    Left = 168
+    Top = 26
+  end
+  object DataSource1: TDataSource
+    DataSet = Tb_clientesTable
+    Left = 408
+    Top = 224
+  end
+end

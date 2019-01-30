@@ -1,0 +1,17 @@
+unit eUsuario.Model.Conexao.Interfaces;
+
+interface
+
+uses
+  Data.DB;
+
+type
+
+  iConexao = interface
+    ['{20F3088A-28F8-4D54-8A3C-7ABF6BB7E29B}']
+    function Connection : TCustomConnection;
+  end;
+
+implementation
+
+end.

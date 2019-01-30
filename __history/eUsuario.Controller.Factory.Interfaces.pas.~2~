@@ -1,0 +1,13 @@
+unit eUsuario.Controller.Factory.Interfaces;
+
+interface
+
+Type
+
+  iFactoryQuery = interface
+    ['{567FF166-7C20-4EFD-A494-C003CDD40848}']
+  end;
+
+implementation
+
+end.

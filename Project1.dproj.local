@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/21 20:52:35.000.598,=C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/21 21:00:38.000.697,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.dfm</Transaction>
+    <Transaction>2019/01/21 21:00:38.000.697,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/21 21:00:49.000.792,C:\Users\USER\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Project1.dproj</Transaction>
+    <Transaction>2019/01/21 21:06:58.000.085,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.dfm=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.View.Principal.dfm</Transaction>
+    <Transaction>2019/01/21 21:06:58.000.085,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.View.Principal.pas</Transaction>
+    <Transaction>2019/01/21 21:07:29.000.210,=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/21 21:08:09.000.228,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.Model.Conexao.Firedac.pas</Transaction>
+    <Transaction>2019/01/21 21:18:39.000.890,=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/21 21:18:51.000.642,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.Model.Conexao.Interfaces.pas</Transaction>
+    <Transaction>2019/01/23 20:26:28.000.520,=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 20:27:01.000.278,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.Model.Query.Firedac.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 21:00:42.000.176,=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 21:01:14.000.931,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.Model.Entidade.Cliente.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 21:08:44.000.179,=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 21:09:39.000.897,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.Controller.Factory.Query.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 21:11:24.000.564,=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+    <Transaction>2019/01/23 21:14:00.000.697,C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\eUsuario.Controller.Factory.Interfaces.pas=C:\Users\USER\Documents\Projetos Delphi\Conexão Enxuta\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

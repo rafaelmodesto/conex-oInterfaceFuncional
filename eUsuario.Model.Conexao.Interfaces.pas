@@ -1,0 +1,28 @@
+unit eUsuario.Model.Conexao.Interfaces;
+
+interface
+
+uses
+  Data.DB;
+
+type
+
+  iConexao = interface
+    ['{20F3088A-28F8-4D54-8A3C-7ABF6BB7E29B}']
+    function Connection : TCustomConnection;
+  end;
+
+  iQuery = interface
+    ['{B2D3CC10-DE61-4D9F-A9C4-FA99001FC799}']
+    function SQL(Value : String) : iQuery;
+    function DataSet : TDataSet;
+  end;
+
+  iEntidade = interface
+    ['{AF07FDF4-89CE-44C6-8D0D-3138A384D0CD}']
+    function Listar(Value : TDataSource) : iEntidade;
+  end;
+
+implementation
+
+end.

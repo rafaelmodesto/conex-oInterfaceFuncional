@@ -1,0 +1,37 @@
+unit eUsuario.Controller.Factory.Query;
+
+interface
+
+uses
+  eUsuario.Controller.Factory.Interfaces;
+
+Type
+  TControllerFactoryQuery = class(TInterfacedObject, iFactoryQuery)
+    private
+
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iFactoryQuery;
+  end;
+implementation
+
+{ TMinhaClasse }
+
+constructor TControllerFactoryQuery.Create;
+begin
+
+end;
+
+destructor TControllerFactoryQuery.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerFactoryQuery.New: iFactoryQuery;
+begin
+  Result := Self.Create;
+end;
+
+end.
